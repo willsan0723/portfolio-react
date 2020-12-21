@@ -13,7 +13,7 @@ const ProjectList = ({ category }) => {
 
         },
         {
-            name: 'Budget Master',
+            name: 'Over Deliver',
             category: 'projects',
             description: 'This is site that allows users to create reviews for delivery services my group created for our second group project',
             url: 'https://shrouded-fortress-41826.herokuapp.com/',
