@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Modal from "./Modal";
+import "../projects.css";
 
 const ProjectList = ({ category }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -59,14 +60,14 @@ const ProjectList = ({ category }) => {
       {isModalOpen && (
         <Modal currentProject={currentProject} onClose={toggleModal} />
       )}
-      <div className="flex-row">
+      <div className="flex-row project-images">
         {currentProjects.map((image, i) => (
           <img
             src={require(`../assets/img/small/${category}/${i}.jpg`).default}
             alt={image.name}
-            className="img-thumbnail mx-1"
             onClick={() => toggleModal(image, i)}
             key={image.name}
+            className="project-img"
           />
         ))}
       </div>
