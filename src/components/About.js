@@ -11,7 +11,8 @@ function About() {
             <img src={myPic} className="my-2" style={{ width: "35%" }} alt="profilePic" />
             <div className="my-2">
                 <p>
-                    With our world changing rapidly, I decided it was time to try something new. I particularily enjoy solving puzzles and strategy games, so coding is a natural fit for me. Coding is very interesting to me because it allows me to use my creativity in new ways.</p>
+                In a world that evolves swiftly, I've embraced change and embarked on a new journey. Formerly captivated by the intricacies of puzzles and strategy games, my transition to coding felt like a seamless progression. Coding has become a fascinating avenue for me, providing a platform to channel my creativity in novel ways. Armed with a recently earned Master of Software Development degree, I bring a robust educational foundation to my endeavors. As I navigate through this dynamic field, my passion for problem-solving and strategic thinking continues to drive my exploration of innovation and endless possibilities.
+                </p>
             </div>
         </section >
     )

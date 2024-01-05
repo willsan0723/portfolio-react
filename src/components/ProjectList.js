@@ -8,7 +8,7 @@ const ProjectList = ({ category }) => {
       name: "Budget Master",
       category: "projects",
       description:
-        "This is a budget tracking calendar that my group created for our first group project",
+        "This is a budget tracking calendar that my group created for our first group project in my bootcamp.",
       url: "https://sirubu.github.io/budget-master/",
       github: "https://github.com/SirUbu/budget-master",
     },
@@ -16,7 +16,7 @@ const ProjectList = ({ category }) => {
       name: "Over Deliver",
       category: "projects",
       description:
-        "This is site that allows users to create reviews for delivery services my group created for our second group project",
+        "This is site that allows users to create reviews for delivery services my group created for our second group project in my bootcamp.",
       url: "https://shrouded-fortress-41826.herokuapp.com/",
       github: "https://github.com/jlightheart24/over-deliver",
     },
@@ -32,7 +32,7 @@ const ProjectList = ({ category }) => {
       name: "Work Day Scheduler",
       category: "projects",
       description:
-        "This is a budget tracking calendar that my group created for our first group project",
+        "This project is a simple schedule application to organize your day schedules. You can save and reload your changes.",
       url: "https://willsan0723.github.io/work-day-scheduler/",
       github: "https://github.com/willsan0723/work-day-scheduler",
     },

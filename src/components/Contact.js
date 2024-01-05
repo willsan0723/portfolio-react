@@ -22,9 +22,7 @@ function ContactForm() {
                 setErrorMessage('');
             }
         }
-        if (!errorMessage) {
-            setFormState({ ...formState, [e.target.name]: e.target.value });
-        }
+        setFormState({ ...formState, [e.target.name]: e.target.value });
     }
 
     function handleSubmit(e) {
@@ -38,15 +36,15 @@ function ContactForm() {
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
-                    <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
+                    <input type="text" value={name} onChange={handleChange} name="name" />
                 </div>
                 <div>
                     <label htmlFor="email">Email address:</label>
-                    <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
+                    <input type="email" value={email} onChange={handleChange} name="email" />
                 </div>
                 <div>
                     <label htmlFor="message">Message:</label>
-                    <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
+                    <textarea name="message" value={message} onChange={handleChange} rows="5" />
                     {errorMessage && (
                         <div>
                             <p className="error-text">{errorMessage}</p>
