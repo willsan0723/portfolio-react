@@ -12,7 +12,7 @@ function App() {
   const [categories] = useState([
     {
       name: 'projects',
-      description: 'Projects that I have completed'
+      description: 'Projects that I have deployed'
     }
   ])
 
