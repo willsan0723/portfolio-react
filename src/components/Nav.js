@@ -17,7 +17,7 @@ function Nav(props) {
   return (
     <header className="flex-row px-1">
       <h2>
-        <a data-testid="link" href="/portfolio-react/">
+        <a data-testid="link" href="/portfolio-react/" style={{ fontFamily: 'Garamond' }}>
           William Santee
         </a>
       </h2>
